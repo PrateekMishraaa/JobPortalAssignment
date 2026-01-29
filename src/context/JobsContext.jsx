@@ -44,7 +44,7 @@ export const JobsProvider = ({ children }) => {
 
   const fetchJobs = async () => {
     try {
-      const response = await axios.get("https://jobportalassignmentbackend-1.onrender.com//api/alljobs");
+      const response = await axios.get("https://jobportalassignmentbackend.onrender.com/api/alljobs");
       const jobs = (response.data.jobsdata || []).map(normalizeJobData);
       setAllJobs(jobs);
       setFilteredJobs(jobs);
