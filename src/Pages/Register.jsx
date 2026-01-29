@@ -40,7 +40,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/register",
+        "https://jobportalassignmentbackend.onrender.com/api/register",
         formData,
         {
           headers: {
