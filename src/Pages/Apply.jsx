@@ -71,7 +71,7 @@ const Apply = () => {
       
       // Send request WITHOUT setting Content-Type header (axios sets it automatically for FormData)
       const response = await axios.post(
-        `https://jobportalassignmentbackend.onrender.com/api/applyjobs/${id}`,
+        `https://jobportalassignmentbackend-1.onrender.com/api/applyjobs/${id}`,
         formDataToSend
         // Remove the headers object - let axios set it automatically
       );

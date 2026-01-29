@@ -26,7 +26,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        'https://jobportalassignmentbackend.onrender.com/api/login',
+        'https://jobportalassignmentbackend-1.onrender.com/api/login',
         formData,
         {
           headers: { "Content-Type": "application/json" }
