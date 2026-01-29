@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar.jsx'
-import FilterSidebar from '../components/FilterSidebar.jsx'
+import FilterSidebar from "../Components/FilterSidebar.jsx"
 import JobDetails from '../components/JobDetails.jsx'
 import { useJobs } from '../context/JobsContext'
 
